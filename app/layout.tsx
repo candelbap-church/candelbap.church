@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Fraunces, Inter } from 'next/font/google';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { MessengerFab } from '@/components/MessengerFab';
 import { PostHogProvider } from '@/components/PostHogProvider';
 import { site } from '@/content/site';
 import '@/styles/globals.css';
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Header />
           <main id="main">{children}</main>
           <Footer />
+          <MessengerFab />
         </PostHogProvider>
       </body>
     </html>

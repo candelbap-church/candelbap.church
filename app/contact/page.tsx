@@ -55,7 +55,13 @@ export default function ContactPage() {
 
             <Card>
               <h2 className="text-2xl text-brand-navy">Get in touch</h2>
-              <ul className="mt-3 space-y-2 text-muted">
+              <p className="mt-3 text-muted text-sm">The fastest way to reach us is on Messenger.</p>
+              <div className="mt-4">
+                <ButtonLink href={site.contact.messenger} variant="primary" external>
+                  Message us on Facebook
+                </ButtonLink>
+              </div>
+              <ul className="mt-5 space-y-2 text-muted text-sm">
                 <li>
                   Email:{' '}
                   <a className="underline" href={`mailto:${site.contact.email}`}>

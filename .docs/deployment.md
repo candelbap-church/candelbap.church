@@ -20,3 +20,14 @@
 ## Manual static host (alternative)
 
 `npm run build` produces `out/`. Upload its contents to any static host (Netlify, Cloudflare Pages, S3+CloudFront, etc.).
+
+## Environment variables
+
+The site uses PostHog for product analytics. Two environment variables must be set in Vercel → Project Settings → Environment Variables (apply to Production, Preview, and Development as needed):
+
+- `NEXT_PUBLIC_POSTHOG_KEY` — the PostHog project write-only API key (starts with `phc_`).
+- `NEXT_PUBLIC_POSTHOG_HOST` — the PostHog ingestion host, e.g. `https://eu.i.posthog.com`.
+
+The `NEXT_PUBLIC_` prefix exposes these values to the browser, which is intentional and safe: PostHog write-only keys are designed to be public and can only ingest events (not read data). See `.env.example` for the variable names and `.env.local` for local development values (never commit `.env.local`).
+
+Without these variables set, the analytics provider no-ops cleanly so previews and local dev still work.

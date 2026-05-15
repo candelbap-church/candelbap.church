@@ -28,6 +28,12 @@ export const site = {
   established: 1970,
   tagline: 'A family of faith in Candelaria — since 1970.',
   url: 'https://candelbap.church',
+  yearTheme: {
+    year: 2026,
+    title: 'Walk with Jesus',
+    bannerImage: '/images/walk-with-jesus.png',
+    bannerAspectRatio: '16/9' as const,
+  },
   address: {
     line1: 'Bansalangin St',
     line2: 'Pahinga Norte',

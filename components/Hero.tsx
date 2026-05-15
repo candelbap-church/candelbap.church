@@ -1,13 +1,27 @@
+import Image from 'next/image';
 import { ButtonLink } from '@/components/ui/Button';
 import { site } from '@/content/site';
 
 export function Hero() {
+  const theme = site.yearTheme;
   return (
     <section className="relative bg-section-soft">
-      <div className="mx-auto max-w-6xl px-6 py-20 md:py-28 grid gap-10 md:grid-cols-2 items-center">
+      <div className="relative w-full bg-brand-navy">
+        <Image
+          src={theme.bannerImage}
+          alt={`${theme.year} theme: ${theme.title}`}
+          width={1920}
+          height={1080}
+          priority
+          sizes="100vw"
+          className="w-full h-auto block"
+        />
+      </div>
+
+      <div className="mx-auto max-w-6xl px-6 py-14 md:py-20 grid gap-10 md:grid-cols-2 items-center">
         <div>
-          <p className="text-brand-gold font-semibold tracking-wide text-sm">
-            Welcome to {site.shortName}
+          <p className="text-brand-gold font-semibold tracking-wide text-sm uppercase">
+            {theme.year} Theme · {theme.title}
           </p>
           <h1 className="mt-3 text-4xl md:text-5xl leading-tight">
             {site.name}

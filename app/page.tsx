@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { Hero } from '@/components/Hero';
-import { ServiceTimes } from '@/components/ServiceTimes';
 import { SermonEmbed } from '@/components/SermonEmbed';
 import { MapEmbed } from '@/components/MapEmbed';
 import { Section } from '@/components/ui/Section';
@@ -11,7 +10,6 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <ServiceTimes />
 
       <Section tone="soft">
         <div className="grid gap-10 md:grid-cols-2 items-center">

@@ -7,7 +7,7 @@ export function ServiceTimes() {
     <Section tone="warm">
       <div className="text-center">
         <h2 className="text-3xl md:text-4xl">When We Gather</h2>
-        <p className="mt-3 text-muted">We'd love to worship with you.</p>
+        <p className="mt-3 text-muted">We&apos;d love to worship with you.</p>
       </div>
       <div className="mt-10 grid gap-6 md:grid-cols-2 max-w-3xl mx-auto">
         {site.services.map((s) => (

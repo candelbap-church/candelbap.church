@@ -4,12 +4,12 @@
 | --- | --- | --- | --- | --- |
 | CCBC full logo, master | `brand-guide/assets/ccbc-logo-typeset-high-resolution.png` and `.svg` | 3701 × 1083 px, transparent, no padding | Light backgrounds only | Preserve exactly; rebuild only with `scripts/build-typeset-high-res-logo.py` |
 | CCBC full logo, original | `CCBC Logo.png` | 320 × 130 px | Reference for proportions only | Superseded by the master; not for production |
-| CCBC full logo, traced | `brand-guide/assets/ccbc-logo-high-resolution.png` and `.svg` | 3989 × 1083 px | None | Rejected: jagged edges and a misshapen B; kept locally, not committed |
+| CCBC full logo, traced | `brand-guide/assets/ccbc-logo-high-resolution.png` and `.svg` | 3989 × 1083 px | None | Rejected: jagged edges and a misshapen B; kept for the record, built by `scripts/build-high-res-logo.py` |
 | Church family photograph | `../CBAP Coffee Table copy.jpg` | 2550 × 1650 px | Photography example and contextual mockup | Existing artwork contains embedded text and graphics; do not present it as an unedited master photo |
 | Walk with Jesus banner | `../Youtube Banner (6).png` | 2560 × 1440 px | Historical comparison only | Not part of the new master identity |
 | CCBC seal, standalone | `brand-guide/assets/ccbc-seal-round-final.png` | 1162 × 1162 px, transparent | Secondary mark where the full logo cannot fit | Preserve exactly; never pair with a retyped wordmark |
 | CCBC seal, first round version | `brand-guide/assets/ccbc-seal-round.png` | 1162 × 1162 px, transparent | Superseded by the final file | Not for production |
-| CCBC seal, working source | `brand-guide/assets/ccbc-seal-crop.png` | 1254 × 1254 px | Source for the standalone seal only | Not for production; stretched about 4% vertically and slightly transparent |
+| CCBC seal, working source | `brand-guide/assets/ccbc-seal-crop.png`, with the identical copy `ccbc-seal-cleaned-preview.png` | 1254 × 1254 px | Source for the standalone seal only | Not for production; stretched about 4% vertically and slightly transparent |
 | AI photography style references | `brand-guide/assets/photography/*.png` | 3:2 landscape | Illustrative examples inside the brand guide | Fictional people; keep the "AI-generated style reference" label; never present as CCBC members |
 
 ## Asset policy

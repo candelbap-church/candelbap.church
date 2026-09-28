@@ -8,6 +8,8 @@
 
 Candelaria Conservative Baptist Church
 
+Version 1.0 · September 2026
+
 ## 2. How to use this guide
 
 This guide helps everyone who communicates on behalf of CCBC create materials that feel clear, consistent, and recognizably ours. Use it for bulletins, the website, newsletters, and event posters.
@@ -52,24 +54,30 @@ The two parts express outward mission and inward formation. Use the tagline sele
 
 ## 6. Logo overview
 
-The existing CCBC logo is our sole institutional mark. Preserve it exactly and use the complete approved artwork.
+The existing CCBC logo is our primary institutional mark. Preserve it exactly and use the complete approved artwork.
 
 Use the full-color logo on white, Warm Cream, or another quiet light background. Use only formally prepared official reversed or single-color artwork on dark or photographic backgrounds.
 
 Do not recreate the logo from screenshots, social media images, or typed text.
 
+### Standalone seal
+
+The seal may stand alone, without the wordmark, where the full logo cannot fit: profile images, favicons, stamps, and small badges. The full logo remains the primary mark.
+
+Keep clear space of at least half the seal's width on every side. Use the approved seal file only, and never pair it with a retyped wordmark.
+
 ## 7. Logo clear space and minimum size
 
 Keep clear space around the logo equal to at least the height of one **C** in the CCBC wordmark on every side. No text, photograph, border, or graphic element may enter this area.
 
-The current approved file is 320 × 130 pixels. Keep it at a size where the small text in the seal remains legible, and never enlarge it past acceptable visual quality. Final minimum sizes must be based on tests of the best available official master.
+The approved master file is 3701 × 1083 pixels. Keep it at a size where the small text in the seal remains legible, and never enlarge it past acceptable visual quality. Final minimum sizes must be based on tests of the best available official master.
 
 ## 8. Logo misuse
 
 Never:
 
 - Redraw, recolor, stretch, compress, crop, or rotate the logo.
-- Separate or rearrange the seal and wordmark.
+- Separate or rearrange the seal and wordmark. Use the approved standalone seal file instead.
 - Add outlines, shadows, glows, bevels, or other effects.
 - Place the logo on a busy photograph.
 - Put the current white-background image inside an improvised box.

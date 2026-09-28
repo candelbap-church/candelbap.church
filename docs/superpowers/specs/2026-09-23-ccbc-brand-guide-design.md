@@ -64,7 +64,7 @@ No permanent Scripture anchor is assigned in this first edition. Scripture selec
 
 ## 5. Identity Architecture
 
-The existing CCBC logo remains the sole institutional mark and must be preserved exactly. Everyday communication leads with **CCBC**. The full name, **Candelaria Conservative Baptist Church**, appears where formal identification, legal clarity, or first-time audience context requires it.
+The existing CCBC logo remains the primary institutional mark and must be preserved exactly. The approved standalone seal is a secondary mark for places where the full logo cannot fit. Everyday communication leads with **CCBC**. The full name, **Candelaria Conservative Baptist Church**, appears where formal identification, legal clarity, or first-time audience context requires it.
 
 The future ministry system will use an endorsed architecture: the unchanged CCBC identity plus standardized descriptors such as “CCBC Youth” and “CCBC Men.” Ministry marks may later receive controlled identifiers while remaining recognizably part of the master identity.
 
@@ -127,10 +127,12 @@ Gold and Clear Sky must not be used for small text on white. Final guide product
 - Use the complete existing CCBC logo as the primary mark.
 - Maintain clear space of at least the height of one “C” in the CCBC wordmark on all sides.
 - Never redraw, recolor, stretch, compress, crop, rotate, outline, rearrange, or add effects.
-- Never detach or rearrange the seal and wordmark unless a separately supplied official asset already exists.
+- Never detach or rearrange the seal and wordmark. Where the seal must stand alone, use the approved standalone seal file, without the wordmark.
+- Use the standalone seal for profile images, favicons, stamps, and small badges, with clear space of at least half its width on every side.
+- Never pair the standalone seal with a retyped wordmark.
 - Use the full-color logo on white, Warm Cream, or another quiet light background.
 - Use only formally prepared reversed or single-color assets on dark or photographic backgrounds.
-- Never create an improvised white box around the raster logo.
+- Never create an improvised white box around the logo.
 - Keep the tagline separate from the logo artwork.
 - Use approved master files rather than screenshots or copies taken from social media.
 

@@ -137,10 +137,10 @@ Do not invent a real event, schedule, Scripture reference, contact detail, minis
 
 - Place the supplied full logo without alteration.
 - Maintain clear space equal to at least the height of one “C” in the CCBC wordmark on every side.
-- Use the current full-color raster logo only on White, Warm Cream, or another quiet light background.
-- Do not fabricate reversed, monochrome, seal-only, or wordmark-only versions.
+- Use the full-color logo master `ccbc-logo-typeset-high-resolution.png` only on White, Warm Cream, or another quiet light background.
+- Do not fabricate reversed, monochrome, or wordmark-only versions. For a seal-only mark, use the approved `ccbc-seal-round-final.png`.
 - Keep the tagline separate from the logo.
-- The current logo is 320 × 130 px. Never enlarge it beyond acceptable visual quality; inspect the seal text at final output size.
+- The logo master is 3701 × 1083 px. Never enlarge it beyond acceptable visual quality; inspect the seal text at final output size.
 
 ## APPLICATIONS
 

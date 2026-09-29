@@ -93,3 +93,37 @@ Page 7: the clear-space diagram was redrawn around the tight logo box with X equ
 `update_fill` zooms the new image and clips it. Follow it with `crop_media` at left 0, top 0 and the frame size.
 
 Editing transactions expire after a few minutes idle. Open one only when ready to apply and commit.
+
+## Version 1.1 — 2026-09-29
+
+The two original Canva documents held subtitles and body text that the copy file, and so the master, did not. Version 1.1 adds them. Decisions and wording are in `copy-additions-proposal.md`; the verbatim source text is in `source-doc-pages-01-09.md` and `source-doc-pages-10-18.md`.
+
+Pages 6 to 11, 13 to 15, and 17 to 20 were rebuilt from copies of pages 9, 10 and 11, so every text element kept Manrope or Inter. Pages 12 and 16 are the original photography and bulletin pages. The guide is 20 pages.
+
+| Page | Content | Page ID |
+| --- | --- | --- |
+| 6 | Logo overview | PB2Tc9BdcV2yHZ6X |
+| 7 | Clear space and minimum size | PBqNZVRlDGjWqK8l |
+| 8 | Logo misuse | PB05WG807KS3PlWJ |
+| 9 | Core color palette | PBNjMdZNM4lf14wF |
+| 10 | Color combinations and accessibility | PBV6VGSx5qTM5nBk |
+| 11 | Typography | PB0Q8J1Sq4B7nGWP |
+| 12 | Photography | PBwVD6Zw0WbtL20n |
+| 13 | Photography guidance | PBwYr7RKd78N1dsD |
+| 14 | Graphic elements and layout | PBfFh8X0Qrh0rdzc |
+| 15 | Voice and bilingual writing | PB6LfglBbzDx1ytk |
+| 16 | Bulletin application | PBNDw7Hybwb2Zg6N |
+| 17 | Bulletin guidance | PBJ9gmQbzj39Fhm3 |
+| 18 | Website and newsletter applications | PBlYtJ5TVHFHHS3M |
+| 19 | Event poster application | PBRmvY5gT2XddtGB |
+| 20 | Production standards and checklist | PBQ9nTfFs8rp9tZF |
+
+The page map and page IDs earlier in this file describe version 1.0 and are superseded for pages 6 onward. The version 1.0 backup is Canva design `DAHWiZsxb_k`.
+
+Page 10 shows the pairings as rows, not cards, to fit the new text within the text elements available on the copied page.
+
+Page 10 merge, 2026-09-29: "Preferred combinations" duplicated "Approved pairings", so its heading was removed and its four bullets now introduce the approved rows. Two rows the bullets implied were added: Charcoal on Warm Cream and Deep Navy on White. The sentence that sat under "Prohibited pairings" moved into the accessibility box, which freed its text element for a swatch sample. Both PDFs were exported again and page 10 was rendered again.
+
+Later on 2026-09-29: the written rule on page 10 gained "Deep Navy text on Clear Sky panels." The three illustrations at the foot of page 17 were removed. The Canva design was renamed from "CCBC Brand Guide — Master v2" to "CCBC Brand Guide — Master"; the design ID is unchanged. Both PDFs were exported again, and pages 10 and 17 were rendered again.
+
+Manual edit by the owner, 2026-09-29: the bullet list under "Approved pairings" on page 10 was removed and the rows moved up, so the swatch rows alone state the approved pairings. No other page changed in text or appearance. Both PDFs were exported again and the contact sheet was rebuilt.

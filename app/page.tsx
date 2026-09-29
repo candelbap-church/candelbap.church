@@ -73,7 +73,7 @@ export default function HomePage() {
                 <ButtonLink href={site.address.mapsUrl} variant="primary" external>
                   Get Directions
                 </ButtonLink>
-                <ButtonLink href="/contact/" variant="ghost">Contact us</ButtonLink>
+                <ButtonLink href={site.contact.messenger} variant="ghost" external>Message us</ButtonLink>
               </div>
             </div>
             <MapEmbed />

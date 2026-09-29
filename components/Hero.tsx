@@ -41,8 +41,8 @@ export function Hero() {
           </h1>
           <p className="mt-5 text-lg text-muted max-w-prose">{site.tagline}</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <ButtonLink href="/contact/" variant="primary" size="lg">
-              Plan Your Visit
+            <ButtonLink href={site.contact.messenger} variant="primary" size="lg" external>
+              Message us on Facebook
             </ButtonLink>
             <ButtonLink href="/watch/" variant="secondary" size="lg">
               Watch Online

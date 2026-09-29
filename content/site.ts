@@ -51,6 +51,7 @@ export const site = {
   contact: {
     email: 'hello@candelbap.church',
     facebook: 'https://fb.com/candelbap.church',
+    messenger: 'https://m.me/candelbap.church',
     youtube: 'https://www.youtube.com/@candelbap.church',
     youtubeChannelHandle: '@candelbap.church',
   },

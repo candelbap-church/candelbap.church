@@ -1,9 +1,8 @@
-type Tone = 'warm' | 'soft' | 'white' | 'navy';
+type Tone = 'warm' | 'white' | 'navy';
 type Variant = 'wave' | 'arc' | 'tilt';
 
 const fillForTone: Record<Tone, string> = {
   warm: 'var(--color-bg-warm)',
-  soft: 'var(--color-section-soft)',
   white: '#ffffff',
   navy: 'var(--color-brand-navy)',
 };

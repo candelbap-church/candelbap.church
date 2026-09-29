@@ -7,7 +7,7 @@ export function MessengerFab() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Message us on Facebook Messenger"
-      className="group fixed bottom-5 right-5 md:bottom-7 md:right-7 z-40 flex items-center gap-2 rounded-full bg-[#0084ff] text-white shadow-lg ring-1 ring-black/10 transition-all duration-300 hover:bg-[#006fdb] hover:shadow-xl hover:-translate-y-0.5 motion-reduce:transition-none motion-reduce:hover:translate-y-0 pl-3 pr-4 py-3 print:hidden"
+      className="group fixed bottom-5 right-5 md:bottom-7 md:right-7 z-40 flex items-center gap-2 rounded-full bg-brand-navy text-white shadow-lg ring-1 ring-black/10 transition-all duration-300 hover:bg-brand-navy-deep hover:shadow-xl hover:-translate-y-0.5 motion-reduce:transition-none motion-reduce:hover:translate-y-0 pl-3 pr-4 py-3 print:hidden"
     >
       <span className="relative flex h-6 w-6 items-center justify-center">
         <span className="absolute inline-flex h-full w-full rounded-full bg-white/40 opacity-60 animate-ping motion-reduce:hidden" />

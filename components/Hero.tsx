@@ -6,8 +6,7 @@ import { site } from '@/content/site';
 export function Hero() {
   const theme = site.yearTheme;
   return (
-    <section className="relative bg-section-soft overflow-hidden">
-      <div className="hero-rays" />
+    <section className="relative bg-bg-warm overflow-hidden">
       <svg
         aria-hidden="true"
         viewBox="0 0 200 200"
@@ -23,7 +22,7 @@ export function Hero() {
           src={theme.bannerImage}
           alt={`${theme.year} theme: ${theme.title}`}
           width={1920}
-          height={1080}
+          height={1026}
           priority
           sizes="100vw"
           className="w-full h-auto block"
@@ -39,7 +38,8 @@ export function Hero() {
           <h1 className="mt-3 text-4xl md:text-5xl leading-tight">
             <span className="heading-accent">{site.name}</span>
           </h1>
-          <p className="mt-5 text-lg text-muted max-w-prose">{site.tagline}</p>
+          <p className="mt-5 text-xl font-semibold text-brand-navy">{site.tagline}</p>
+          <p className="mt-2 text-lg text-ink/80 max-w-prose">{site.heritageLine}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <ButtonLink href={site.contact.messenger} variant="primary" size="lg" external>
               Message us on Facebook
@@ -51,12 +51,12 @@ export function Hero() {
         </Reveal>
         <Reveal delay={150}>
           <div className="rounded-3xl bg-white ring-1 ring-black/5 shadow-sm p-8 text-center transition-shadow duration-300 hover:shadow-lg">
-            <p className="text-sm uppercase tracking-wider text-muted">Join us this week</p>
+            <p className="text-sm uppercase tracking-wider text-ink/80">Join us this week</p>
             <ul className="mt-4 space-y-3">
               {site.services.map((s) => (
                 <li key={s.day} className="font-display text-2xl">
                   <span className="text-brand-navy">{s.day}</span>
-                  <span className="text-muted text-base"> — {s.name}</span>
+                  <span className="text-ink/80 text-base"> — {s.name}</span>
                   <div className="text-brand-gold text-lg">{s.time}</div>
                 </li>
               ))}

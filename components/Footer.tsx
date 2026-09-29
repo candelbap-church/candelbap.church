@@ -7,7 +7,8 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-14 grid gap-10 md:grid-cols-3">
         <div>
           <p className="font-display text-xl">{site.name}</p>
-          <p className="mt-2 text-white/70 text-sm">Since {site.established}</p>
+          <p className="mt-2 text-white/80 text-sm">{site.tagline}</p>
+          <p className="mt-1 text-white/70 text-sm">Since {site.established}</p>
           <p className="mt-4 text-sm text-white/80">
             {site.address.line1}, {site.address.line2}
             <br />
@@ -35,8 +36,18 @@ export function Footer() {
               </a>
             </li>
             <li>
+              <a href={site.contact.phoneHref} className="text-white hover:underline">
+                {site.contact.phone}
+              </a>
+            </li>
+            <li>
               <a href={site.contact.facebook} className="text-white hover:underline" target="_blank" rel="noopener noreferrer">
                 Facebook
+              </a>
+            </li>
+            <li>
+              <a href={site.contact.instagram} className="text-white hover:underline" target="_blank" rel="noopener noreferrer">
+                Instagram
               </a>
             </li>
             <li>

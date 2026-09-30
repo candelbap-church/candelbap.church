@@ -12,19 +12,19 @@ export const metadata: Metadata = {
 export default function GivePage() {
   return (
     <>
-      <Section tone="soft">
+      <Section tone="warm">
         <div className="max-w-3xl">
           <p className="text-brand-gold font-semibold tracking-wide text-sm">Give</p>
           <h1 className="mt-3 text-4xl md:text-5xl">Partner with us</h1>
-          <p className="mt-6 text-lg text-muted leading-relaxed">{site.giving.intro}</p>
+          <p className="mt-6 text-lg text-ink/80 leading-relaxed">{site.giving.intro}</p>
         </div>
       </Section>
 
-      <Section tone="warm">
+      <Section tone="white">
         <h2 className="text-3xl">Bank Transfer</h2>
         {site.giving.bankAccounts.length === 0 ? (
           <Card className="mt-6 max-w-xl">
-            <p className="text-muted">
+            <p className="text-ink/80">
               Bank account details will be posted here soon. For now, please reach out at{' '}
               <a className="underline" href={`mailto:${site.contact.email}`}>{site.contact.email}</a>{' '}
               for giving instructions.
@@ -37,11 +37,11 @@ export default function GivePage() {
                 <p className="font-display text-xl text-brand-navy">{a.bank}</p>
                 <dl className="mt-3 text-sm space-y-1">
                   <div>
-                    <dt className="inline text-muted">Account name: </dt>
+                    <dt className="inline text-ink/80">Account name: </dt>
                     <dd className="inline font-medium">{a.accountName}</dd>
                   </div>
                   <div>
-                    <dt className="inline text-muted">Account number: </dt>
+                    <dt className="inline text-ink/80">Account number: </dt>
                     <dd className="inline font-mono">{a.accountNumber}</dd>
                   </div>
                 </dl>
@@ -52,7 +52,7 @@ export default function GivePage() {
       </Section>
 
       {site.giving.qrCodes.length > 0 && (
-        <Section tone="soft">
+        <Section tone="warm">
           <h2 className="text-3xl">Scan to Give</h2>
           <div className="mt-6 grid gap-6 md:grid-cols-3 max-w-4xl">
             {site.giving.qrCodes.map((q) => (
@@ -67,10 +67,10 @@ export default function GivePage() {
         </Section>
       )}
 
-      <Section tone="warm">
+      <Section tone="white">
         <Card className="max-w-3xl mx-auto">
           <h2 className="text-2xl text-brand-navy">A note on giving</h2>
-          <p className="mt-3 text-muted">
+          <p className="mt-3 text-ink/80">
             &quot;Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion,
             for God loves a cheerful giver.&quot; — 2 Corinthians 9:7
           </p>

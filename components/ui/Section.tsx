@@ -1,15 +1,14 @@
 import type { ReactNode } from 'react';
 
-type Tone = 'warm' | 'soft' | 'white';
+type Tone = 'warm' | 'white';
 const tones: Record<Tone, string> = {
   warm: 'bg-bg-warm',
-  soft: 'bg-section-soft',
   white: 'bg-white',
 };
 
 export function Section({
   children,
-  tone = 'warm',
+  tone = 'white',
   id,
   className = '',
 }: {

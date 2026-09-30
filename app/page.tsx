@@ -13,15 +13,15 @@ export default function HomePage() {
     <>
       <Hero />
 
-      <Divider tone="soft" variant="wave" />
-      <Section tone="soft">
+      <Divider tone="warm" variant="wave" />
+      <Section tone="warm">
         <Reveal>
           <div className="grid gap-10 md:grid-cols-2 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl">
                 <span className="heading-accent">A church family in Candelaria</span>
               </h2>
-              <p className="mt-4 text-muted leading-relaxed">
+              <p className="mt-4 text-ink/80 leading-relaxed">
                 Since {site.established}, {site.name} has been a place to worship, grow, and serve together.
                 Whether you&apos;re exploring faith for the first time or looking for a church home, you&apos;re welcome here.
               </p>
@@ -30,7 +30,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="rounded-3xl bg-white p-2 ring-1 ring-black/5 shadow-sm transition-transform duration-300 hover:-translate-y-1">
-              <div className="aspect-[4/3] rounded-2xl bg-bg-warm flex items-center justify-center text-muted">
+              <div className="aspect-[4/3] rounded-2xl bg-bg-warm flex items-center justify-center text-ink/80">
                 Photo coming soon
               </div>
             </div>
@@ -38,14 +38,14 @@ export default function HomePage() {
         </Reveal>
       </Section>
 
-      <Divider tone="soft" variant="arc" flip />
-      <Section tone="warm">
+      <Divider tone="warm" variant="arc" flip />
+      <Section tone="white">
         <Reveal>
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl">
               <span className="heading-accent">Latest Sermon</span>
             </h2>
-            <p className="mt-3 text-muted">Catch up or worship with us online.</p>
+            <p className="mt-3 text-ink/80">Catch up or worship with us online.</p>
           </div>
           <div className="mt-10 max-w-3xl mx-auto">
             <SermonEmbed src={site.latestSermonEmbed} />
@@ -56,15 +56,15 @@ export default function HomePage() {
         </Reveal>
       </Section>
 
-      <Divider tone="soft" variant="wave" />
-      <Section tone="soft">
+      <Divider tone="warm" variant="wave" />
+      <Section tone="warm">
         <Reveal>
           <div className="grid gap-10 md:grid-cols-2 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl">
                 <span className="heading-accent">Visit Us</span>
               </h2>
-              <p className="mt-4 text-muted">
+              <p className="mt-4 text-ink/80">
                 {site.address.line1}, {site.address.line2}
                 <br />
                 {site.address.city}, {site.address.region}, {site.address.country}
@@ -81,8 +81,8 @@ export default function HomePage() {
         </Reveal>
       </Section>
 
-      <Divider tone="warm" variant="tilt" />
-      <Section tone="warm">
+      <Divider tone="white" variant="tilt" />
+      <Section tone="white">
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl bg-brand-navy text-white px-8 py-16 text-center">
             <svg
@@ -101,7 +101,7 @@ export default function HomePage() {
             <div className="mt-6 relative">
               <Link
                 href="/give/"
-                className="inline-flex rounded-full bg-brand-gold px-7 py-3.5 text-ink font-semibold transition-all duration-300 hover:bg-brand-gold-soft hover:scale-[1.03] motion-reduce:hover:scale-100"
+                className="inline-flex rounded-full bg-brand-gold px-7 py-3.5 text-ink font-semibold transition-all duration-300 hover:bg-brand-gold/85 hover:scale-[1.03] motion-reduce:hover:scale-100"
               >
                 Give now
               </Link>

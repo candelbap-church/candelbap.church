@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Fraunces, Inter } from 'next/font/google';
+import { Inter, Manrope } from 'next/font/google';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { MessengerFab } from '@/components/MessengerFab';
@@ -7,7 +7,7 @@ import { PostHogProvider } from '@/components/PostHogProvider';
 import { site } from '@/content/site';
 import '@/styles/globals.css';
 
-const fraunces = Fraunces({
+const manrope = Manrope({
   subsets: ['latin'],
   variable: '--font-display',
   display: 'swap',
@@ -29,12 +29,12 @@ export const metadata: Metadata = {
     siteName: site.name,
     type: 'website',
   },
-  icons: { icon: '/logo.png' },
+  icons: { icon: '/icon.png' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
+    <html lang="en" className={`${manrope.variable} ${inter.variable}`}>
       <body>
         <a href="#main" className="skip-link">Skip to content</a>
         <PostHogProvider>

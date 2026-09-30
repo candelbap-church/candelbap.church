@@ -19,7 +19,7 @@ export function Header() {
     <header className="sticky top-0 z-40 bg-bg-warm/90 backdrop-blur border-b border-black/5">
       <div className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3" aria-label={`${site.shortName} home`}>
-          <Image src="/logo.png" alt="" width={140} height={32} priority />
+          <Image src="/logo.png" alt="" width={140} height={41} priority />
         </Link>
         <nav aria-label="Primary" className="hidden md:flex items-center gap-7">
           {navLinks.map((l) => (
